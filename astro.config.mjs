@@ -6,6 +6,7 @@ export default defineConfig({
   site: "https://ikonan.github.io",
   base: "/astro-tutorial",
 
-  adapter: nodejs({ mode: "standalone" }),
-  output: "hybrid",
+  // SSR 服务端渲染
+  // adapter: nodejs({ mode: "standalone" }),
+  // output: "hybrid",
 });
